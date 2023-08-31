@@ -8,8 +8,9 @@ be stored in a list.
 Obs: This command names will change i guess.
 
 - !mkdir | ListName | ItemDescription   -> Create a new list
-- !ls                                   -> List all items with status active (ACTIVE is the default status set)
+- !ls                                   -> List all items with status active or paused (ACTIVE is the default status set)
 - !ls | ListName                        -> List a specific item with it details (title, description, status)
+- !rm | ListName                        -> Set CLOSED to a specific item (Will not be listed on !ls)
 
 # To be Added
 - !playing          -> show the current playing item
